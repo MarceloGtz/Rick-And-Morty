@@ -1,0 +1,16 @@
+.header {
+  background: url('../assets/images/Rick-And-Morty.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 33%;
+  height: 35vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  width: 320px;
+}
