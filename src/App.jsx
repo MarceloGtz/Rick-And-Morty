@@ -9,9 +9,8 @@ function App() {
   const [locationId, setLocationId] = useState('');
 
   useEffect(() => {
-    const randomId = Math.floor(Math.random() * 126) + 1;
     axios
-      .get(`https://rickandmortyapi.com/api/location/${randomId}`)
+      .get(`https://rickandmortyapi.com/api/location/1`)
       .then((res) => setLocation(res.data));
   }, []);
 

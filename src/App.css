@@ -94,7 +94,7 @@ body {
   border: 2px solid transparent;
   border-radius: 3px 0 0 3px;
   outline: none;
-  background-color: var(--text-color);
+  background-color: white;
   color: var(--bg-color);
   transition: 0.3s ease;
 }
@@ -117,8 +117,8 @@ body {
   border: 2px solid transparent;
   border-radius: 0 3px 3px 0;
   outline: none;
-  background-color: var(--text-color);
-  color: var(--bg-color);
+  background-color: white;
+  color: #212121;
   transition: 0.3s ease;
   text-align: center;
   font-size: 0.85rem;

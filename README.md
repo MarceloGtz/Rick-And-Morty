@@ -13,6 +13,7 @@ Check out my app running on netlify here: <a href="https://rick-and-morty-nine-s
 - Animated Status
 - Searchbar
 - API consume
+- Dark / Light Mode Automatically
 
 ## Run Locally
 
