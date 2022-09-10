@@ -59,7 +59,7 @@ function App() {
             </g>
           </svg>
           <input
-            placeholder='Enter a number from 1 to 126...'
+            placeholder='Enter a number from 1 up to 126 ...'
             type='search'
             className='input'
             value={locationId}
