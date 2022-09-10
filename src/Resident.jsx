@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import getStatus from './utils/getStatus';
 
 const Resident = ({ url }) => {
   const [resident, setResident] = useState({});
@@ -9,7 +10,7 @@ const Resident = ({ url }) => {
   useEffect(() => {
     axios.get(url).then((res) => setResident(res.data));
   }, []);
-  console.log(resident);
+  console.log(resident.status);
   return (
     // ----- CARD -----
     <article className='residents__card'>
@@ -23,8 +24,14 @@ const Resident = ({ url }) => {
           <b>{resident.name}</b>
         </p>
         <p className='residents__p'>
-          <b>Status:</b>
-          {resident.status}
+          <span
+            className={
+              getStatus(resident.status) + ' residents__status' + ' ping'
+            }
+          ></span>
+          <b>
+            {resident.status} - {resident.species}
+          </b>
         </p>
         <p className='residents__p'>
           <b>Origin: </b>

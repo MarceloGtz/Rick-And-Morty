@@ -174,6 +174,29 @@ body {
 
 .residents__p {
   margin: 0;
+  text-transform: capitalize;
+}
+
+.residents__status {
+  width: 11px !important;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0;
+  margin-right: 8px !important;
+}
+
+.residents__status.alive {
+  background-color: #06ff00;
+}
+
+.residents__status.dead {
+  background-color: #f90716;
+}
+
+.residents__status.unknown {
+  background-color: #7f7f7fd9;
 }
 
 /* ----- MEDIA QUERIES ----- */
@@ -187,5 +210,24 @@ body {
 
   * {
     font-size: 0.9rem;
+  }
+}
+
+.ping {
+  animation: ping 0.9s ease-out infinite both;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(1.2);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
   }
 }

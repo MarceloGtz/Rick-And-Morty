@@ -21,7 +21,7 @@ function App() {
       .then((res) => setLocation(res.data));
   };
 
-  console.log(location);
+  // console.log(location);
 
   return (
     <div className='App'>
