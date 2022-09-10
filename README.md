@@ -1,17 +1,17 @@
 # Rick And Morty Wiki
 
 Created using the [Rick And Morty](https://rickandmortyapi.com/), thanks!.  
-Check out my app running on netlify here: <a href="https://tourmaline-fudge-61a3b2.netlify.app/" target="_blank">Weather App</a>
+Check out my app running on netlify here: <a href="https://rick-and-morty-nine-sigma.vercel.app/" target="_blank">Rick And Morty</a>
 
 ## Screenshots
 
-![App Screenshot](./src/assets/images/Weather-SS.png)
+![App Screenshot](./src/assets/images/Rick-n-Morty-SS.png)
 
 ## Features
 
-- Dinamic Background
-- Change units for the temperature
-- Loading screen
+- Responsive Design
+- Animated Status
+- Searchbar
 - API consume
 
 ## Run Locally
@@ -19,13 +19,13 @@ Check out my app running on netlify here: <a href="https://tourmaline-fudge-61a3
 Clone the project
 
 ```bash
-  git clone https://github.com/MarceloGtz/Weather-App.git
+  git clone https://github.com/MarceloGtz/Rick-And-Morty.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Weather-App
+  cd Rick-And-Morty
 ```
 
 Install dependencies
@@ -52,4 +52,4 @@ Start the server
 ## Acknowledgements
 
 - [Readme Editor](https://readme.so/es)
-- [Open Weather API](https://openweathermap.org/api)
+- [Rick And Morty](https://rickandmortyapi.com/)
